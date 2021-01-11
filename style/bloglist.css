@@ -1,0 +1,46 @@
+.list_section{
+    position: relative;
+    top:0
+}
+
+.img_section{
+    margin: auto;
+}
+
+.img_section figure img{
+    filter: blur(0);
+    transition: .5s ease-in-out;
+}
+.blog_element{
+    transition: 1s;
+    background-color: #8D8741;
+    padding: 1rem;
+}
+
+.blog_element:hover .img_section figure img{
+    opacity: .9;
+    filter: blur(3px);
+}
+
+.desc_section{
+    position: absolute;
+    transition: .5s;
+    opacity: 0;
+}
+
+.topic_section{
+    position: absolute;
+    opacity: 1;
+    transition: .5s;
+}
+.blog_element:hover .desc_section{
+    opacity: 1;
+}
+.blog_element:hover .topic_section{
+    opacity: 0;
+}
+
+.navbar{
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}

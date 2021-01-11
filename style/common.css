@@ -1,0 +1,20 @@
+body{
+    background-color: #945e45;
+}
+.main-footer{
+    background-color: #945e45; 
+    color: black
+}
+
+.main-footer{
+    background-color: #945e45; 
+    color: black
+}
+
+.vertical-center{
+    position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%);
+}
+
+html{
+    scroll-behavior: smooth;
+}
