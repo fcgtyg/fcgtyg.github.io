@@ -2,9 +2,9 @@
     min-height: 100vh;
 }
 .carousel-item{
-    height: 100vh;
+    height: 90vh;
 }
-.blog-shortcut-row{
+.yellowish-row{
     background-color: #8D8741;
 }
 
@@ -12,9 +12,20 @@
     padding: 1rem; 
 }
 
-.whoami-row{
-    padding-top: 1rem; 
+.orangish-row{
+    background-color: #945e45;
+}
+
+.pinkish-row{
     background-color: #83677b;
+}
+
+.blueish-row{
+    background-color: #659dbd;
+}
+
+#whoami-row{
+    padding-top: 1rem; 
 }
 
 .whoami-col{
@@ -119,3 +130,94 @@
     margin: 1rem;
 }
 
+
+
+.cardConnect{
+    position: relative;
+    cursor: pointer;
+}
+
+.cardConnect .face{
+    height: 100px;
+    width: 100%;
+    transition: 1s;
+}
+
+.cardConnect .face.face1{
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    width: 100%;
+}
+
+.cardConnect:hover .face.face1, .cardConnect:active .face.face1{
+    background: #BC986A;
+    opacity: 0;
+    width: 25%;
+    transition: 1s;
+}
+
+.cardConnect .face.face1 .content{
+    opacity: 0.5;
+    transition: 0.5s;
+    max-width: 100%;
+}
+
+.cardConnect:hover .face.face1 .content, .cardConnect:active .face.face1 .content{
+    opacity: 1;
+}
+
+.cardConnect .face.face1 .content h3{
+    margin: 10px 0 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.cardConnect .face.face2{
+    height: 100px;
+    position: relative;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    opacity: 0;
+    width: 25%;
+
+}
+
+.cardConnect:hover .face.face2, .cardConnect:active .face.face2{
+    transform: translateY(0);
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    opacity: 1;
+    transition: 1s;
+    width: 100%;
+}
+.cardConnect .face.face2 .content{
+    width: 100%;
+}
+
+.cardConnect .face.face2 .content p{
+    margin: 0;
+    padding: 0;
+}
+
+.cardConnect .face.face2 .content p{
+    color: black; /* blue colors for links too */
+    text-decoration: none; /* no underline */
+
+}
+
+.cardConnect .face.face2 .content p:hover{
+    color: black; /* blue colors for links too */
+    text-decoration: none; /* no underline */
+}
