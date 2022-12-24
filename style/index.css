@@ -1,4 +1,4 @@
-.row{
+.one-page-row{
     min-height: 100vh;
 }
 .carousel-item{
@@ -220,4 +220,85 @@
 .cardConnect .face.face2 .content p:hover{
     color: black; /* blue colors for links too */
     text-decoration: none; /* no underline */
+}
+
+#contact-me-modal-body{
+    height: 75vh;
+}
+.bottom-right-fixed{
+    position:fixed;
+    z-index: 999;
+    bottom: 5vh;
+    right: 5vw;
+}
+
+.floating-button{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    border-width: 0px;
+    color: #000000;
+    transition: 1s;  
+}
+
+#floating-container{
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border-radius: 50%;
+    border-width: 0px;
+    color: #000000;
+    transition: 1s;  
+    opacity: 20%;
+}
+
+
+#floating-container:hover{
+    height: 100px;
+    color:white;
+    z-index: 997;
+    border-radius: 50%;
+    border-radius: 0%;
+    background-color: transparent;    
+    opacity: 100%;
+}
+
+#floating-linkedin-button{
+    z-index: 998; 
+    visibility: hidden;
+    opacity: 0%;
+}
+
+#floating-container:hover > #floating-linkedin-button{
+    transform: translateY(-55px);
+    transition: 1s;
+    visibility: visible;
+    opacity: 100%;
+    background-color: grey;
+
+}
+
+#floating-mail-button{
+    visibility: hidden;  
+    z-index: 998; 
+    opacity: 0%;
+}
+
+#floating-container:hover > #floating-mail-button{
+    visibility: visible;
+    transition: 1s;
+    opacity: 100%;
+    background-color: grey;
+}
+
+#floating-container:hover > #floating-contact-button{
+    visibility: hidden;
+    transition: 1s;
+    z-index: -1;
+    opacity: 0%;
+}
+
+#floating-contact-button{
+    transform: 1s;
 }

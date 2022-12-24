@@ -1,0 +1,27 @@
+[
+    {
+        "title": "#WhoAmI",
+        "description": "A Brief History of \"My\" Time",
+        "href": "#whoami-section",
+        "img": "assets/index/card1.jpg"
+    },
+    {
+        "title": "#Career",
+        "description": "My journey on becoming an engineer.",
+        "href": "#career-section",
+        "img": "assets/index/card2.jpg"
+    },
+    {
+        "title": "#Projects",
+        "description": "My Quests on the Path",
+        "href": "#projects-section",
+        "img": "assets/index/card3.jpg"
+    },
+    {
+        "title": "#Blog",
+        "description": "My Thoughts.",
+        "href": "https://medium.com/@gulmez.fatihcagatay",
+        "is_external": true,
+        "img": "assets/index/card4.jpg"
+    }
+]
