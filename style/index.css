@@ -331,3 +331,10 @@
     transform: 1s;
     cursor: default;
 }
+
+.accordion-item, .accordion-header, .accordion-button.collapsed{
+    background-color: transparent !important;
+    border-width: 1px;
+    border-color: #fbeec1;
+    color: #fbeec1
+}
