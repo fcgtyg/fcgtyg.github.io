@@ -65,29 +65,28 @@
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
 }
 
-nav{
-    background-color: transparent !important;
-    transition: 1s;
+@media (min-width: 992px) {
+    nav{
+        background-color: transparent !important;
+        transition: 1s;
+    }
 
-}
+    nav .navbar-collapse{
+        visibility: hidden;
+        opacity: 0;
+        transition: 1s;
+    }
 
-nav .navbar-collapse{
-    visibility: hidden;
-    opacity: 0;
-}
-
-nav:hover{
-    transition: 1s;
-    background-color: #ffffff82 !important;
-}
-.navbar-collapse{
-    transition: 1s;
-}
-
-nav:hover .navbar-collapse{
-    visibility: visible;
-    transition: 1s;
-    opacity: 1;
+    nav:hover{
+        transition: 1s;
+        background-color: #ffffff82 !important;
+    }
+    
+    nav:hover .navbar-collapse{
+        visibility: visible;
+        transition: 1s;
+        opacity: 1;
+    }
 }
 
 .cardFancy:hover .face.face1, .cardFancy:active .face.face1{
