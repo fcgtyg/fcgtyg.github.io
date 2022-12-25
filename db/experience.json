@@ -1,12 +1,118 @@
 [
     {
-        "title": "",
-        "corporation": "",
-        "location": "",
-        "place": "",
-        "description": "",
-        "start_date": "",
+        "title": "Senior Backend Engineer",
+        "corporation": "Y42",
+        "location": "Berlin/Germany",
+        "place": "Remote",
+        "description": "Integrations development department. The core technology is Python. Singer IO standards were being followed to fetch data and import it. The workflow has the following steps; fetching data from APIs with considering limitations and performance (rate limit etc.), Transforming data into records that Y42 can read, and streaming data as records with Singer IO protocol.",
+        "start_date": "May 2022",
         "end_date": "",
-        "tech_stack": [ "" ]    
+        "tech_stack": [ "Python", "Docker", "GCloud", "Git", "Github Actions" ],
+        "references": [
+            {
+                "name": "Oltjona Dyrmishi",
+                "profile": "https://www.linkedin.com/in/oltjona-dyrmishi-982aba21/"
+            }
+        ],
+        "type": "Full Time" 
+    },
+    {
+        "title": "Software Engineer",
+        "corporation": "Ulak Haberleşme A. Ş.",
+        "location": "Ankara/Turkiye",
+        "place": "Office",
+        "description": "Backend Developer. A new integrated cloud system is being developed for the Software-Defined Data Center product. The objective is to integrate all key concepts of any data center which are Virtualization, Storage, Monitoring, Network Management, Inventory/Environment Control, and MANO. That is why a web application is being developed to serve all components to users. This application is written with Java's Jax WS library. Also, Swagger, OSGI, Apache Karaf, Docker, PostgreSQL, Python, Flask, LibRADOS technologies are being used intensely. In addition, some experience in managing OpenStack and Ceph systems is being gained",
+        "start_date": "July 2020",
+        "end_date": "April 2022",
+        "tech_stack": [ "Java", "Docker", "Openstack", "Python", "PostgreSQL", "Ceph", "Linux Networking"],
+        "references": [
+            {
+                "name": "Ali Kırca",
+                "profile": "https://www.linkedin.com/in/ali-kirca-73946516/"
+            },
+            {
+                "name": "Mesut Aygün",
+                "profile": "https://www.linkedin.com/in/mesut-aygun-b96027a0/"
+            }
+        ],
+        "type": "Full Time" 
+    },
+    {
+        "title": "Computer Engineer",
+        "corporation": "Information and Communication Technologies Authority",
+        "location": "Ankara/Turkiye",
+        "place": "Office",
+        "description": "Frequently worked on web services for corporate software systems most of which are web applications. .Net 4+ (WCF) and Java 1.8+ (Jax WS) technologies were used. In another project, a streaming application that serves live streams and stream archives to only authorized people was built. In this system, the key technologies were RTSP, RTMP, Mpeg-TS, FFmpeg, NGINX, Apache HTTPd, Oracle Database - PLSQL.",
+        "start_date": "October 2018",
+        "end_date": "April 2022",
+        "tech_stack": [ ".Net", "C#", "WCF", "Oracle PlSQL", "RTSP", "RTMP", "Mpeg-TS", "NGINX", "Apache HTTPd" ],
+        "references": []  
+    },
+    {
+        "title": "Software Engineer",
+        "corporation": "Ulak Haberleşme A. Ş.",
+        "location": "Istanbul/Turkiye",
+        "place": "Office",
+        "description": "Worked on the development of an ONOS based MILAT SDN Controller with OpenFlow, OpenvSwitch, OvsDB and some networking knowledge. Developed some applications about Virtual Tenant Network feature on SDN Controller. Key technologies were Java, Apache Karaf and OSGI.",
+        "start_date": "July 2018",
+        "end_date": "October 2018",
+        "tech_stack": [ "Java", "Apache Karaf", "OSGI" ],
+        "references": [
+            {
+                "name": "Oltjona Dyrmishi",
+                "profile": "https://www.linkedin.com/in/oltjona-dyrmishi-982aba21/"
+            }
+        ],
+        "type": "Full Time" 
+    },
+    {
+        "title": "Teaching Assistant",
+        "corporation": "Istanbul Şehir University",
+        "location": "Istanbul/Turkiye",
+        "place": "Office",
+        "description": "Gave lectures in English on the following courses at Istanbul Şehir University. Introduction to Programming: A course to teach basic programming skills with Python. Except for main lectures, Practice Labs were held by teaching assistants. Also, TAs were responsible to prepare projects and assignments. Programming Practices: Second level course of Introduction to Programming. This course made students finish seven projects about basic programming, web scrabbing, GUI programming, and basic recommendation systems. Like the first course, Practice Labs were held by assistants except for main lectures. TAs were responsible to prepare projects and assignments too.",
+        "start_date": "October 2017",
+        "end_date": "June 2018",
+        "tech_stack": [ "Python" ],
+        "references": [
+            {
+                "name": "Ali Kırca",
+                "profile": "https://www.linkedin.com/in/ali-kirca-73946516/"
+            },
+            {
+                "name": "Mesut Aygün",
+                "profile": "https://www.linkedin.com/in/mesut-aygun-b96027a0/"
+            }
+        ],
+        "type": "Half Time"  
+    },
+    {
+        "title": "Research Intern",
+        "corporation": "Istanbul Şehir University",
+        "location": "Istanbul/Turkiye",
+        "place": "Office",
+        "description": "In this internship, the focus was on real-time big data analysis using Apache Spark and PySpark. The internship scenario was that determining the most efficient test scenarios in real-time to minimize errors on CPU production packets by analyzing previous test results. The test data produced with the Spark Streaming module analyzed with the SparkML using machine learning algorithms like Linear Regression.",
+        "start_date": "September 2017",
+        "end_date": "June 2018",
+        "tech_stack": [ "Python", "Apache Spark" ],
+        "references": [],
+        "type": "Internship"  
+    },
+    {
+        "title": "Cloud Administration Intern",
+        "corporation": "TR.NET",
+        "location": "Istanbul/Turkiye",
+        "place": "Office",
+        "description": "Long-term Cloud Technologies and Big Data intern. Gained some experience in Linux System Administration, Debian Linux, and OpenStack systems. Was mentored on Cloud Computing (OpenStack, Debian System Administration) and Apache Spark and Hadoop. Worked on research, development, and applications on subjects mentioned with Mesut Aygün's supervision. Also worked on some setup procedures the data center of the National Center of High-Performance Computing at Istanbul Technical University.",
+        "start_date": "November 2016",
+        "end_date": "March 2017",
+        "tech_stack": [ "Python", "Openstack", "Linux" ],
+        "references": [
+            {
+                "name": "Mesut Aygün",
+                "profile": "https://www.linkedin.com/in/mesut-aygun-b96027a0/"
+            }
+        ],
+        "type": "Half Time" 
     }
 ]

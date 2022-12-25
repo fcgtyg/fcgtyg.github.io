@@ -1,9 +1,42 @@
 [
     {
-        "title": "", 
-        "start_date": "",
-        "end_date": "",
-        "description": "",
-        "tech_stack": [ "" ]
+        "title": "HotelNerede", 
+        "start_date": "December 2021",
+        "end_date": "September 2022",
+        "description": "HotelNerede is a web application that allows users planning their trips or holidays end-to-end. The clients can decide where to stay during holiday (with Hotel and Villa services), can rent a car to reach the location (with Rent-a-Car service), can decide what to do during the trip (with Tours, Activities and Beach Reservation services). Technically, this application is fully containerized and is being developed using NodeJS TypeScript programming language. The application uses a PostgreSQLrelational database to hold data, Redis as cache, Azure File Share (formerly MongoDB’s GridFS) to hold images and files. The implementation follows Microservice architecture. With Docker and Docker-Compose, containerization and orchestration is enabled (Kubernetes on the roadmap). The application was being hosted on Azure. However, this can be changed with other cloud platforms. CI/CD pipeline also implemented in Azure Devops (formerly Github and Github Actions). Basically when the main branch got a new update (PR merge etc.), pipeline starts to build application into containers and push it to Azure Container registry. After that, Azure gets new image and deploy it on Container Instances service. An application gateway stands between these services and Internet and routing of requests are being handled by gateway. Project's domain name and SSL certificate is being hosted by Natro and directed to Azure application. Database is Postgresql and fully hosted on Azure. Redis also is on Azure.",
+        "corporation": "Freelence",
+        "tech_stack": [ "Javascript", "TypeScript", "PostgreSQL", "NodeJS", "ExpressJS", "Redis", "Azure", "Cloud Programming", "Docker", "CI/CD", "Devops", "Docker Compose" ]
+    },
+    {
+        "title": "ULAK MAYA SD-WAN",
+        "start_date": "July 2021",
+        "end_date": "April 2022",
+        "description": "Innovative solution developed by ULAK HABERLEŞME with the Software Defined approach to make Wide Area Networks more secure , easy managable and cost efficient. MAYA SD-WAN allows WAN management to be completely centralized and simplified. By assigning network and security policy templates to multiple sites , you can easily apply changes to multiple sites at once.Zero Touch Provisioning (ZTP) enables site deployments in a few minutes. Full network visualization features  simplify operation & management. As a software engineer, IPS/IDS feature and Application-Aware Routing feature is being developed by me. Used key technologies are Java, Python, Linux Networking, Iptables, Routing.",
+        "corporation": "Ulak Haberleşme A. Ş.",
+        "tech_stack": [ "Java", "Docker", "Python", "PostgreSQL", "Linux Networking"]
+    },
+    {
+        "title": "Software-Defined Data Center Suite",
+        "start_date": "July 2020",
+        "end_date": "July 2021",
+        "description": "This project includes a management UI to make data center management easier and the setting up of data centers itself. There are two steps to this project. First of all, is to set up data centers physically and install the required software. The second is to build software for management. On physical setup, various software used which are OpenStack, Ceph, Grafana, Zabbix, OpenDCIM, OSM. Worked on management and usage scenarios of them but not on the setup of these components. There is also software to manage all these components in one place. This software consists of independent modules that interact with each component by their Rest APIs. In other words, any component that serves a Rest API can be included in this software. The OpenStack component is nearly finished and work on the Ceph component is started. The OpenStack component is written in Java with Jax WS and HttpRequest libraries. The Ceph component is being developed using Python3 with Flask framework for serving and the Ceph's LibRados library to interact with the Ceph cluster. All components are managed as microservices and independent modules.",
+        "corporation": "Ulak Haberleşme A. Ş.",
+        "tech_stack": [ "Java", "Docker", "Openstack", "Python", "PostgreSQL", "Ceph", "Linux Networking"]
+    },
+    {
+        "title": "Real Time Video Streaming Service",
+        "start_date": "August 2019",
+        "end_date": "July 2020",
+        "description": "This project aimed to catch RTSP and RTMP streams for known sources and restream them to authorized people, archive them, and serve the archives as streams for future usage. Streams were caught by FFMpeg CLI, archived in MP4 format, and restreamed lively in HLS format. The backend that served video files and streams was created using Apache HTTPd and NGINX (with Streaming Module). The backend architecture was set up as 3 replicas for High Availability and failover scenarios, which are active, passive, stand-by. Apache HTTPd was placed as a load-balancer and NGINX was placed as a streaming server, application server, and file server altogether. The system was worked on Windows Server 2019 but it had cross-platform support. The web application consisted of the backend and frontend. The backend was written in C# WCF as Rest API. Pure JavaScript, CSS, Html, and Bootstrap 4 were used for the frontend. The video player used at UI was JW Player.",
+        "tech_stack": [ ".Net", "C#", "WCF", "Oracle PlSQL", "RTSP", "RTMP", "Mpeg-TS", "NGINX", "Apache HTTPd" ],
+        "corporation": "Information and Communication Technologies Authority"
+    },
+    {
+        "title": "Smart Exam Administration System",
+        "start_date": "October 2018",
+        "end_date": "June 2018",
+        "description": "SEAS offers a computer-based examination system for avoiding paper usage, providing fast and reliable evaluation processes, preventing cheating issues, increasing quality of teaching by statistics and analyses as well as creating student-friendly environments during exams. The part I participated in is about developing RESTFul based server API and Database design. The fundamental tools that I am using are Python, Flask and MySQL. The next step will be setting up an data analysis service that will work with server and do real time cheating analysis while the exam ongoes. The procedure is on design stage now.",
+        "tech_stack": [ "Python", "Flask", "MySQL", "DigitalOcean" ],
+        "corporation": "Istanbul Şehir University"
     }
 ]

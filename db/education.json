@@ -1,11 +1,29 @@
 [
     {
-        "school": "",
-        "degree": "",
-        "program": "",
-        "start_date": "",
-        "end_date": "",
-        "gpa": "",
+        "school": "Istanbul Şehir University",
+        "degree": "Bachelor's Degree",
+        "program": "Computer Science",
+        "start_date": "2013",
+        "end_date": "2018",
+        "gpa": "3.52/4.00",
+        "description": "Graduated with High Honor Degree"
+    },
+    {
+        "school": "Istanbul Şehir University",
+        "degree": "Bachelor's Degree",
+        "program": "Industrial Engineering",
+        "start_date": "2014",
+        "end_date": "2019",
+        "gpa": "3.28/4.000",
+        "description": "Double Major. Graduated with Honor Degree"
+    },
+    {
+        "school": "Edirne Anadolu Lisesi",
+        "degree": "High School",
+        "program": "Science",
+        "start_date": "2009",
+        "end_date": "2013",
+        "gpa": "89/100",
         "description": ""
     }
 ]

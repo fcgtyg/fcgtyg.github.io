@@ -1,5 +1,52 @@
-{
-    "title": "",
-    "profiency": 0,
-    "type": "language - tech - soft"
-}
+[
+    {
+        "title": "English",
+        "profiency": 8,
+        "type": "language"
+    },
+    {
+        "title": "Teamwork",
+        "profiency": 8,
+        "type": "soft"
+    },
+    {
+        "title": "Fast Learner",
+        "profiency": 9,
+        "type": "soft"
+    },
+    {
+        "title": "Programming",
+        "profiency": 10,
+        "type": "tech"
+    },
+    {
+        "title": "Presentation",
+        "profiency": 0,
+        "type": "soft"
+    },
+    {
+        "title": "Java",
+        "profiency": 9,
+        "type": "tech"
+    },
+    {
+        "title": "Python",
+        "profiency": 9,
+        "type": "tech"
+    },
+    {
+        "title": "Javascript",
+        "profiency": 8,
+        "type": "tech"
+    },
+    {
+        "title": "Docker",
+        "profiency": 7,
+        "type": "tech"
+    },
+    {
+        "title": "SQL",
+        "profiency": 9,
+        "type": "tech"
+    }
+]
