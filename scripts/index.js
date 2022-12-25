@@ -107,7 +107,7 @@ function generate_career_html(data){
             <div class="timeline-content">
                 <i class="icon-attachment"></i>
                 <small>${end_date}</small>
-                <h4>${data.title}</h4>
+                <h4 class="text-center text-wrap">${data.title}</h4>
                 <h6>${data.corporation}</h6>
                 <hr class="my-1" />
                 <p>
@@ -169,7 +169,7 @@ function generate_project_html(data){
         <div class="timeline-content">
             <i class="icon-code"></i>
             <small>Started at ${data.start_date}</small>
-            <h4>${data.title}</h4>
+            <h4 class="text-center text-wrap">${data.title}</h4>
             <p>
                 ${data.description}
             </p>
