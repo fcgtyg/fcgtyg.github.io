@@ -29,7 +29,7 @@
         "end_date": "July 2020",
         "description": "This project aimed to catch RTSP and RTMP streams for known sources and restream them to authorized people, archive them, and serve the archives as streams for future usage. Streams were caught by FFMpeg CLI, archived in MP4 format, and restreamed lively in HLS format. The backend that served video files and streams was created using Apache HTTPd and NGINX (with Streaming Module). The backend architecture was set up as 3 replicas for High Availability and failover scenarios, which are active, passive, stand-by. Apache HTTPd was placed as a load-balancer and NGINX was placed as a streaming server, application server, and file server altogether. The system was worked on Windows Server 2019 but it had cross-platform support. The web application consisted of the backend and frontend. The backend was written in C# WCF as Rest API. Pure JavaScript, CSS, Html, and Bootstrap 4 were used for the frontend. The video player used at UI was JW Player.",
         "tech_stack": [ ".Net", "C#", "WCF", "Oracle PlSQL", "RTSP", "RTMP", "Mpeg-TS", "NGINX", "Apache HTTPd" ],
-        "corporation": "Information and Communication Technologies Authority"
+        "corporation": "BTK - ICT"
     },
     {
         "title": "Smart Exam Administration System",
