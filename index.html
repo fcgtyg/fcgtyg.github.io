@@ -23,6 +23,7 @@
     />
     <link rel="stylesheet" href="style/index.css" />
     <link rel="stylesheet" href="style/common.css" />
+    <link rel="stylesheet" href="style/timeline.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
@@ -188,9 +189,7 @@
                         aria-labelledby="educationHeader"
                         data-bs-parent="#whoamiAccordion"
                       >
-                        <div class="accordion-body" id="education-body">
-                          
-                        </div>
+                        <div class="accordion-body" id="education-body"></div>
                       </div>
                     </div>
                     <div class="accordion-item">
@@ -212,9 +211,7 @@
                         aria-labelledby="certificateHeading"
                         data-bs-parent="#whoamiAccordion"
                       >
-                        <div class="accordion-body" id="certificate-body">
-                          
-                        </div>
+                        <div class="accordion-body" id="certificate-body"></div>
                       </div>
                     </div>
                     <div class="accordion-item">
@@ -237,20 +234,85 @@
                         data-bs-parent="#whoamiAccordion"
                       >
                         <div class="accordion-body" id="skills-body">
-                          <div class="progress mx-3 my-0" style="height: 10px;">
-                            <div class="progress-bar bg-secondary" role="progressbar" style="width: 5%">0</div>
-                            <div class="progress-bar bg-dark" role="progressbar" style="width: 10%">1</div>
-                            <div class="progress-bar bg-secondary" role="progressbar" style="width: 10%">2</div>
-                            <div class="progress-bar bg-dark" role="progressbar" style="width: 10%">3</div>
-                            <div class="progress-bar bg-secondary" role="progressbar" style="width: 10%">4</div>
-                            <div class="progress-bar bg-dark" role="progressbar" style="width: 10%">5</div>
-                            <div class="progress-bar bg-secondary" role="progressbar" style="width: 10%">6</div>
-                            <div class="progress-bar bg-dark" role="progressbar" style="width: 10%">7</div>
-                            <div class="progress-bar bg-secondary" role="progressbar" style="width: 10%">8</div>
-                            <div class="progress-bar bg-dark" role="progressbar" style="width: 10%">9</div>
-                            <div class="progress-bar bg-secondary" role="progressbar" style="width: 5%">10</div>
+                          <div class="progress mx-3 my-0" style="height: 10px">
+                            <div
+                              class="progress-bar bg-secondary"
+                              role="progressbar"
+                              style="width: 5%"
+                            >
+                              0
+                            </div>
+                            <div
+                              class="progress-bar bg-dark"
+                              role="progressbar"
+                              style="width: 10%"
+                            >
+                              1
+                            </div>
+                            <div
+                              class="progress-bar bg-secondary"
+                              role="progressbar"
+                              style="width: 10%"
+                            >
+                              2
+                            </div>
+                            <div
+                              class="progress-bar bg-dark"
+                              role="progressbar"
+                              style="width: 10%"
+                            >
+                              3
+                            </div>
+                            <div
+                              class="progress-bar bg-secondary"
+                              role="progressbar"
+                              style="width: 10%"
+                            >
+                              4
+                            </div>
+                            <div
+                              class="progress-bar bg-dark"
+                              role="progressbar"
+                              style="width: 10%"
+                            >
+                              5
+                            </div>
+                            <div
+                              class="progress-bar bg-secondary"
+                              role="progressbar"
+                              style="width: 10%"
+                            >
+                              6
+                            </div>
+                            <div
+                              class="progress-bar bg-dark"
+                              role="progressbar"
+                              style="width: 10%"
+                            >
+                              7
+                            </div>
+                            <div
+                              class="progress-bar bg-secondary"
+                              role="progressbar"
+                              style="width: 10%"
+                            >
+                              8
+                            </div>
+                            <div
+                              class="progress-bar bg-dark"
+                              role="progressbar"
+                              style="width: 10%"
+                            >
+                              9
+                            </div>
+                            <div
+                              class="progress-bar bg-secondary"
+                              role="progressbar"
+                              style="width: 5%"
+                            >
+                              10
+                            </div>
                           </div>
-
                         </div>
                       </div>
                     </div>
@@ -279,28 +341,16 @@
       <div class="row one-page-row orangish-row career-row" id="career-section">
         <div class="col-md-12 career-col" style="color: #fbeec1">
           <div class="container">
-            <div class="jumbotron">
-              <h1 class="display-4">Career</h1>
-              <p class="lead">A Brief history of 'my' time</p>
-              <hr class="my-4" />
-
-              <p>Human. Engineer. Software Developer.</p>
-              <p>Ankara/Turkey</p>
-              <p>
-                A software engineer who is passionate to learn, curious about
-                new technologies, satisfied by solving problems, can code with
-                any programming language with little effort.
-              </p>
-              <p>
-                Thanks to my ability to learn and research, I can be adapted to
-                new tools and technologies fast. With my programming skills and
-                system knowledge, I managed to use many different tools and
-                programming languages that are needed in my career easily. While
-                solving problems, I do not just solve them, I also try to find
-                the best and the most modern way by following technologies and
-                trends. Code quality is one of my head priorities. I am a
-                self-disciplined learner when I work.
-              </p>
+            <div class="timeline" id="career-body">
+              <div class="timeline-row">
+                <div class="timeline-content">
+                  <p>What is next?</p>
+                  <p>You can contact me anytime.</p>
+                  <div class="spinner-grow" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -331,28 +381,17 @@
       >
         <div class="col-md-12 whoami-col" style="color: #fbeec1">
           <div class="container">
-            <div class="jumbotron">
-              <h1 class="display-4">Projects</h1>
-              <p class="lead">A Brief history of 'my' time</p>
-              <hr class="my-4" />
+            <div class="timeline" id="projects-body">
+              <div class="timeline-row">
+                <div class="timeline-content">
+                  <p>What is next?</p>
+                  <p>You can contact for your projects.</p>
+                  <div class="spinner-grow" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                </div>
+              </div>
 
-              <p>Human. Engineer. Software Developer.</p>
-              <p>Ankara/Turkey</p>
-              <p>
-                A software engineer who is passionate to learn, curious about
-                new technologies, satisfied by solving problems, can code with
-                any programming language with little effort.
-              </p>
-              <p>
-                Thanks to my ability to learn and research, I can be adapted to
-                new tools and technologies fast. With my programming skills and
-                system knowledge, I managed to use many different tools and
-                programming languages that are needed in my career easily. While
-                solving problems, I do not just solve them, I also try to find
-                the best and the most modern way by following technologies and
-                trends. Code quality is one of my head priorities. I am a
-                self-disciplined learner when I work.
-              </p>
             </div>
           </div>
         </div>

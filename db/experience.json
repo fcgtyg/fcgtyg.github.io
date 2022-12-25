@@ -6,7 +6,6 @@
         "place": "Remote",
         "description": "Integrations development department. The core technology is Python. Singer IO standards were being followed to fetch data and import it. The workflow has the following steps; fetching data from APIs with considering limitations and performance (rate limit etc.), Transforming data into records that Y42 can read, and streaming data as records with Singer IO protocol.",
         "start_date": "May 2022",
-        "end_date": "",
         "tech_stack": [ "Python", "Docker", "GCloud", "Git", "Github Actions" ],
         "references": [
             {
@@ -45,8 +44,7 @@
         "description": "Frequently worked on web services for corporate software systems most of which are web applications. .Net 4+ (WCF) and Java 1.8+ (Jax WS) technologies were used. In another project, a streaming application that serves live streams and stream archives to only authorized people was built. In this system, the key technologies were RTSP, RTMP, Mpeg-TS, FFmpeg, NGINX, Apache HTTPd, Oracle Database - PLSQL.",
         "start_date": "October 2018",
         "end_date": "April 2022",
-        "tech_stack": [ ".Net", "C#", "WCF", "Oracle PlSQL", "RTSP", "RTMP", "Mpeg-TS", "NGINX", "Apache HTTPd" ],
-        "references": []  
+        "tech_stack": [ ".Net", "C#", "WCF", "Oracle PlSQL", "RTSP", "RTMP", "Mpeg-TS", "NGINX", "Apache HTTPd" ]
     },
     {
         "title": "Software Engineer",
@@ -59,8 +57,12 @@
         "tech_stack": [ "Java", "Apache Karaf", "OSGI" ],
         "references": [
             {
-                "name": "Oltjona Dyrmishi",
-                "profile": "https://www.linkedin.com/in/oltjona-dyrmishi-982aba21/"
+                "name": "Ali Kırca",
+                "profile": "https://www.linkedin.com/in/ali-kirca-73946516/"
+            },
+            {
+                "name": "Mesut Aygün",
+                "profile": "https://www.linkedin.com/in/mesut-aygun-b96027a0/"
             }
         ],
         "type": "Full Time" 
@@ -74,16 +76,6 @@
         "start_date": "October 2017",
         "end_date": "June 2018",
         "tech_stack": [ "Python" ],
-        "references": [
-            {
-                "name": "Ali Kırca",
-                "profile": "https://www.linkedin.com/in/ali-kirca-73946516/"
-            },
-            {
-                "name": "Mesut Aygün",
-                "profile": "https://www.linkedin.com/in/mesut-aygun-b96027a0/"
-            }
-        ],
         "type": "Half Time"  
     },
     {
@@ -95,7 +87,6 @@
         "start_date": "September 2017",
         "end_date": "June 2018",
         "tech_stack": [ "Python", "Apache Spark" ],
-        "references": [],
         "type": "Internship"  
     },
     {
