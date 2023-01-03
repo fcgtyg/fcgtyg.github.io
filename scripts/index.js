@@ -31,7 +31,7 @@ function generate_fancy_card_html(data){
         <div class="cardFancy">
         <div class="face face1">
             <div class="content">
-            <img src="${data.img}" alt="Card image cap" />
+            <img src="${data.img}" alt="${data.alt}" />
             <h3>${data.title}</h3>
             </div>
         </div>

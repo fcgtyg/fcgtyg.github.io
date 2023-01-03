@@ -3,25 +3,29 @@
         "title": "#WhoAmI",
         "description": "A Brief History of \"My\" Time",
         "href": "#whoami-section",
-        "img": "assets/index/card1.jpg"
+        "img": "assets/index/card1.jpg",
+        "alt": "a dry stick with leaves"
     },
     {
         "title": "#Career",
         "description": "My journey on becoming an engineer.",
         "href": "#career-section",
-        "img": "assets/index/card2.jpg"
+        "img": "assets/index/card2.jpg",
+        "alt": "an asphalt road with a left curve in the middle of naked terrain"
     },
     {
         "title": "#Projects",
         "description": "My Quests on the Path",
         "href": "#projects-section",
-        "img": "assets/index/card3.jpg"
+        "img": "assets/index/card3.jpg",
+        "alt": "typewriter picture zoomed in paper with 'dear santa' words"
     },
     {
         "title": "#Blog",
         "description": "My Thoughts.",
         "href": "https://blog.gulmezfatihcagatay.com",
         "is_external": true,
-        "img": "assets/index/card4.jpg"
+        "img": "assets/index/card4.jpg",
+        "alt": "a white short fat candle next to yellow flowers"
     }
 ]
