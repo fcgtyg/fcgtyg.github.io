@@ -21,7 +21,7 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-           az cdn endpoint purge --content-paths  "/*" --profile-name "cv-cdn-fcgtyg" --name "cv-cdn-fcgtyg.azureedge.net" --resource-group "lab"
+           az cdn endpoint purge --content-paths  "/*" --profile-name "cv-cdn-fcgtyg" --name "cv-cdn-fcgtyg" --resource-group "lab"
            
     - name: logout
       run: |
