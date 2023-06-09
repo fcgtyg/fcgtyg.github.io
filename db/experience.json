@@ -1,11 +1,39 @@
 [
     {
+        "title": "Senior Automation Engineer",
+        "corporation": "Datacose",
+        "location": "Indianapolis, Indiana/United States",
+        "place": "Remote",
+        "description": "Automations and integrations development. Core technology is Python. ",
+        "start_date": "February 2023",
+        "tech_stack": [ "Python", "Docker", "GCloud", "Git", "Github Actions" ],
+        "references": [
+            
+        ],
+        "type": "Full Time" 
+    },
+    {
+        "title": "Infrastructure Engineer",
+        "corporation": "BLC iletişim ve Güvenlik Sistemleri",
+        "location": "Ankara/Turkiye",
+        "place": "Hybrid",
+        "description": "Automations and integrations development. Core technology is Python. ",
+        "start_date": "December 2022",
+        "end_date": "March 2022",
+        "tech_stack": [ "Spring Framework", "Openstack", "Ceph", "Nextcloud", "Pfsense", "Java", "Python"],
+        "references": [
+            
+        ],
+        "type": "Full Time Contract" 
+    },
+    {
         "title": "Senior Backend Engineer",
         "corporation": "Y42",
         "location": "Berlin/Germany",
         "place": "Remote",
         "description": "Integrations development department. The core technology is Python. Singer IO standards were being followed to fetch data and import it. The workflow has the following steps; fetching data from APIs with considering limitations and performance (rate limit etc.), Transforming data into records that Y42 can read, and streaming data as records with Singer IO protocol.",
         "start_date": "May 2022",
+        "end_date": "December 2022",
         "tech_stack": [ "Python", "Docker", "GCloud", "Git", "Github Actions" ],
         "references": [
             {
