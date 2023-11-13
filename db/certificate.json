@@ -1,8 +1,14 @@
 [
     {
+        "title": "Azure Fundamentals",
+        "duration": "AZ900 Exam Passed",
+        "authority": "Microsoft",
+        "date": "January 2023"
+    },
+    {
         "title": "Modernizing Applications with Containers and Orchestrators",
         "duration": "40",
-        "authority": "Microsoft",
+        "authority": "Microsoft Turkiye",
         "date": "December 2019"
     },
     {
