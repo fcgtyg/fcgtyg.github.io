@@ -1,12 +1,12 @@
 [
     {
-        "title": "Senior Automation Engineer",
+        "title": "Senior Automation Engineer - Automation Solution Architect",
         "corporation": "Datacose",
         "location": "Indianapolis, Indiana/United States",
         "place": "Remote",
-        "description": "Automations and integrations development. Core technology is Python. ",
+        "description": "Automations and integrations development. Core technology is Python. I have considerable experience in assisting companies with their workflow automation efforts through the use of a range of third-party APIs and tools. These workflows may cover a broad range of tasks, including financial management, client relations, data storage, and more. In my work, I have also implemented the backend of some custom dashboards to offer greater flexibility and customization options. By leveraging various tools such as Stripe, Airtable, Hubspot, Firebase, and Firestore, I have been successful in streamlining complex workflows and increasing overall efficiency. I believe that my in-depth knowledge of these tools and my ability to integrate them seamlessly into existing workflows could be invaluable to any organization seeking to optimize their operations.",
         "start_date": "February 2023",
-        "tech_stack": [ "Python", "Docker", "GCloud", "Git", "Github Actions" ],
+        "tech_stack": [ "Python", "Docker", "GCloud", "Git", "Github Actions", "Firebase", "Firestore", "FastAPI", "SQLAlchemy", "PostgreSQL" ],
         "references": [
             
         ],
